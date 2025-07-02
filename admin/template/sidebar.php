@@ -8,10 +8,10 @@
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
-        <div class="sidebar-brand-icon rotate-n-15">
-            <i class="fas fa-cash-register"></i>
+        <div class="sidebar-brand-icon">
+            <img src="<?= $main_url ?>assets/img/Logo.png" alt="Ideal Kasir" style="max-width: 60px; height: auto;">
         </div>
-        <div class="sidebar-brand-text mx-3">POS Codekop<sup></sup></div>
+        <div class="sidebar-brand-text mx-3">KasirKu<sup></sup></div>
     </a>
 
     <!-- Divider -->

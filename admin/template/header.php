@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <title>POS Kasir | Codekop</title>
+    <link rel="shortcut icon" href="<?= $main_url?>assets/img/cart.png" type="image/x-icon">
+    <title>ARMU STORE | KasirKu</title>
 
     <!-- Custom fonts for this template-->
     <link href="sb-admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -32,5 +32,3 @@
 
     <!-- Page Wrapper -->
     <div id="wrapper">
-
-        

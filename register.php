@@ -30,16 +30,41 @@ if (isset($_POST['register'])) {
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Register</title>
+	<title>Create Account - KasirKu</title>
+	<link rel="icon" type="image/png" href="assets/img/Logo.png">
 	<link href="sb-admin/css/sb-admin-2.min.css" rel="stylesheet">
+	<style>
+		body {
+			background: url('assets/img/bg-1.jpg') no-repeat center center fixed;
+			background-size: cover;
+			min-height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.card {
+			background: rgba(255, 255, 255, 0.9);
+			border-radius: 15px;
+			padding: 20px;
+		}
+		.logo {
+			display: block;
+			margin: 0 auto 15px;
+			max-height: 100px;
+		}
+	</style>
 </head>
-<body class="bg-gradient-success">
+<body>
 	<div class="container">
 		<div class="row justify-content-center">
-			<div class="col-md-6 mt-5">
+			<div class="col-md-6">
+				<!-- LOGO
+				<img src="assets/img/Logo.png" alt="KasirKu Logo" class="logo"> -->
+
+				<!-- CARD REGISTER -->
 				<div class="card shadow">
 					<div class="card-body">
-						<h4 class="text-center text-success"><b>Register Account</b></h4>
+						<h4 class="text-center text-success"><b>Create an Account</b></h4>
 						<form method="POST">
 							<div class="form-group">
 								<input type="text" name="nama" class="form-control" placeholder="Nama Lengkap" required>
@@ -68,6 +93,7 @@ if (isset($_POST['register'])) {
 						</form>
 					</div>
 				</div>
+				<!-- END CARD -->
 			</div>
 		</div>
 	</div>
